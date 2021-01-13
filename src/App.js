@@ -1,6 +1,12 @@
+import { Reset } from "styled-reset";
+import Dashboard from "./components/Dashboard";
+
 function App() {
   return (
-    <div className="App">Hello, There will be a dashboard here very soon !</div>
+    <>
+      <Reset />
+      <Dashboard />
+    </>
   );
 }
 
